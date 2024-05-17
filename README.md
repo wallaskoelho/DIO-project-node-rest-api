@@ -64,7 +64,7 @@ flixCast/
 ## Instruções de Uso
 1. Clone o repositório.
 2. Instale as dependências usando `npm install`.
-3. Execute o servidor com `npm start`.
+3. Execute o servidor com `npm run start:dev`.
 
 ## Tecnologias Utilizadas
 - Node.js
