@@ -1,0 +1,23 @@
+{
+  "name": "dio-projeto-app-cast",
+  "version": "1.0.0",
+  "description": "fazer um app de listagems de podcast por categoria",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start:dev": "tsx --env-file=.env src/server.ts",
+    "start:watch": "tsx watch --env-file=.env src/server.ts",
+    "dist": "tsup src",
+    "start:dist": "npm run dist && --env-file=.env node/server.js"
+  },
+  "author": "Wallas Koelho",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "tsup": "^8.0.2",
+    "tsx": "^4.10.2",
+    "typescript": "^5.4.5"
+  }
+}
